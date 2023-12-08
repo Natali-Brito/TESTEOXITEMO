@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><Context>
     <Resource accessToUnderlyingConnectionAllowed="true" driverClassName="org.h2.Driver" logAbandoned="true" name="jdbc/main" password="root" profile="DEV" removeAbandoned="false" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:h2:file:~/cd315b0b437d4ec7b07e9a0bba36edbc;ALIAS_COLUMN_NAME=true;AUTO_SERVER=TRUE" username="root"/>
+    <Resource accessToUnderlyingConnectionAllowed="false" cloudDatabaseKey="db-ggg-natali" driverClassName="com.mysql.jdbc.Driver" logAbandoned="true" name="jdbc/GGG1" password="pc59dcd30357442b699076db3e4b90" profile="DEV" removeAbandoned="false" removeAbandonedTimeout="60" schema="" type="javax.sql.DataSource" url="jdbc:mysql://db-ggg-natali.cfdacj6pdovg.us-east-1.rds.amazonaws.com:3306/db_ggg_natali?createDatabaseIfNotExist=true&amp;useTimezone=true&amp;serverTimezone=UTC&amp;useSSL=false" username="root"/>
     <Profile value="DEV"/>
     <Profile value="PROD"/>
 </Context>
